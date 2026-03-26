@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing-section {
+  height: 100vh;
+
+  background-image: url(./assets/img/landing-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-section > img {
+  height: 500px;
+}
