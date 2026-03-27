@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mein PC</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <div class="landing-section">
       <div class="header">
         <div class="nav-bar">
-          <a href="">Das lerne ich</a>
-          <a href="">Meine Software</a>
-          <a href="">Meine Specs</a>
+          <a href="#learning-section">Das lerne ich</a>
+          <a href="#my-software-section">Meine Software</a>
+          <a href="#my-specs">Meine Specs</a>
         </div>
-        <img src="./assets/icons/mail.svg" alt="Mail Icon" />
+        <a class="mail-hover" href="mailto:webdev-acc@proton.me"
+          ><img src="./assets/icons/mail.svg" alt="Mail Icon"
+        /></a>
       </div>
       <img src="./assets/img/gaming-pc.png" alt="Darstellung eines PCs" />
     </div>
 
     <div class="main-content">
-      <div class="content-section">
+      <div id="my-specs" class="content-section">
         <h2>Komponenten</h2>
         <table class="components-table">
           <tr>
@@ -56,7 +63,7 @@
         </table>
       </div>
 
-      <div class="content-section">
+      <div id="learning-section" class="content-section">
         <h2>Das lerne ich gerade</h2>
         <div class="learning-content">
           <img
@@ -72,14 +79,16 @@
             </p>
             <h3>Dokus die ich nutze</h3>
             <div class="learning-content-links">
-              <a href="">W3Schools</a>
-              <a href="">MDN-Docs</a>
+              <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+              <a href="https://developer.mozilla.org/" target="_blank"
+                >MDN-Docs</a
+              >
             </div>
           </div>
         </div>
       </div>
 
-      <div class="content-section">
+      <div id="my-software-section" class="content-section">
         <h2>Diese Software nutze ich</h2>
         <p class="software-section-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
