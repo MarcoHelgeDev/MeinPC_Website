@@ -10,8 +10,32 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .landing-section > img {
-  height: 500px;
+  width: 600px;
+  margin-top: 150px;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 16px;
 }
