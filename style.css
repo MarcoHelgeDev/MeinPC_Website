@@ -24,13 +24,12 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
 .landing-section > img {
   width: 600px;
-  margin-top: 150px;
 }
 
 a {
@@ -45,6 +44,9 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 40px 120px;
+  position: fixed;
+  background-color: rgb(12, 16, 59);
+  top: 0;
 }
 
 .nav-bar {
