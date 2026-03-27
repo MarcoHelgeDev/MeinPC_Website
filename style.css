@@ -1,6 +1,16 @@
+/* iceland-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/iceland-v22-latin-regular.woff2") format("woff2");
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Iceland";
 }
 
 .landing-section {
@@ -154,4 +164,22 @@ p {
   font-size: 24px;
   text-align: center;
   color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 60px 120px;
+  color: white;
+}
+
+.footer > div {
+  display: flex;
+  gap: 24px;
+}
+
+.copyright-text {
+  width: 150px;
 }
