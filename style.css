@@ -83,3 +83,38 @@ a {
 
   padding: 8px 16px;
 }
+
+.learning-content {
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+
+.learning-content > img {
+  width: 500px;
+}
+
+.learning-content-right {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+p {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+.learning-content-links {
+  display: flex;
+  gap: 48px;
+}
+
+.learning-content-links > a {
+  font-size: 32px;
+  color: rgba(147, 184, 232, 1);
+  text-decoration: underline;
+}
