@@ -39,3 +39,21 @@ a {
   display: flex;
   gap: 16px;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 120px 0;
+  background-color: rgb(12, 16, 59);
+}
+.content-section {
+  padding: 0 120px;
+}
+
+.content-section > h2 {
+  font-size: 64px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
